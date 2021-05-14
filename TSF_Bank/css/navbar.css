@@ -1,0 +1,17 @@
+.nav-link {
+	margin-right: 15px;
+    color: #555555;
+	letter-spacing: 0.5px;
+	transition: 0.3s;
+}
+
+.navbar-brand {
+    color: #000000;
+    letter-spacing: 0.3px;
+}
+
+h2 {
+    color: #000000;
+    letter-spacing: 0.5px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}

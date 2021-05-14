@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+	background-color: #f8f8f8;
+    overflow: hidden;
+}
+
+h1 {
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background: #70706F;
+    color: #D8D8D8;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+#list.img {
+    width: 220px;
+    height: 130px;
+    object-fit: cover;
+}
+
+.img-fluid {
+    max-width: 90%;
+    height: 220px;
+}
+
+@media only screen and (orientation: portrait) {
+    h1 {
+        font-size: 30px;
+    }
+    .act {
+        padding-bottom: 100px;
+    }
+}
